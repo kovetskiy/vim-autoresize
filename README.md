@@ -2,6 +2,8 @@
 
 Automatically resizes vim windows (splits) when you switch to another window.
 
+![do you feel it?](http://i.imgur.com/ebex4s5.gif)
+
 ## History
 
 I've tried [autoresize.vim](https://github.com/vim-scripts/autoresize.vim) and
