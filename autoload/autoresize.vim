@@ -5,5 +5,7 @@ func! autoresize#resize()
         execute "resize " g:autoresize_height
     endif
 
-    execute "vertical resize " g:autoresize_width
+    if winwidth(0) < g:autoresize_width
+        execute "vertical resize " g:autoresize_width
+    endif
 endfunc!
