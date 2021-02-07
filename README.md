@@ -26,3 +26,7 @@ Plug 'kovetskiy/vim-autoresize'
 ```
     let g:autoresize_width = 80
 ```
+* Exclude file types
+```
+    let g:autoresize_disabled_filetypes = ['nerdtree']
+```

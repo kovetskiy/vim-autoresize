@@ -6,6 +6,10 @@ if !exists('g:autoresize_width')
     let g:autoresize_width = 80
 endif
 
+if !exists('g:autoresize_disabled_filetypes')
+    let g:autoresize_disabled_filetypes = []
+endif
+
 augroup _vim-autoresize
     autocmd!
 
